@@ -16,7 +16,7 @@ if (calificacion >= 9){
 } else if (calificacion >= 6){
     console.log("Pansaste ...")
 }else{
-    console.log("Reprobado:(")
+    console.log("Reprobado:")
 }
 
 // AND (y) &&
@@ -27,4 +27,12 @@ if (edad >= 18 && tieneINE){
     console.log("Puedes votar")
 }else {
     console.log("No puedes votar")
+}
+let numero = prompt("ingresa un numero:")
+numero = parseInt(numero);
+//si queremos preguntar si es divisible entre dos 
+if (numero % 2 === 0){
+    console.log("es divisible entre 2")
+}else{console.log("no divisible entre 2")
+
 }
